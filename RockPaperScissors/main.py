@@ -25,11 +25,11 @@ while playing:
     while (Userpickednumber == 0):
         Userpickedword = input("Rock, paper, or scissors?: ").lower()
         # translate user input from words to numbers
-        if (Userpickedword == "rock"):
+        if (Userpickedword == "rock ✊"):
             Userpickednumber = 1
-        if (Userpickedword == "paper"):
+        if (Userpickedword == "paper 🖐️"):
             Userpickednumber = 2
-        if (Userpickedword == "scissors"):
+        if (Userpickedword == "scissors ✌️"):
             Userpickednumber = 3
             # if you didnt put rock paper or scissors it will print not a valid input
         if (Userpickednumber == 0) :
@@ -41,11 +41,11 @@ while playing:
     computerpicked = random.randint(1, 3)
     result += "Computer picked: "
     if (computerpicked == 1):
-        result += "rock"
+        result += "rock ✊"
     if (computerpicked == 2):
-        result += "paper"
+        result += "paper 🖐️"
     if (computerpicked == 3):
-        result += "scissors"
+        result += "scissors ✌️"
 
   # print results 
     print(result)
