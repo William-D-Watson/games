@@ -1,3 +1,3 @@
-# TODO: create game class
-# TODO: put functions in game class
-# TODO: play fortnite
+from color import color
+
+print("hello world")
